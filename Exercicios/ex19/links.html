@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizando links</title>
+    <style>
+        /*
+        # = id
+        . = class
+        : = pseudo-class
+        :: = pseudo-element
+        > = children
+        */
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: rgb(100, 4, 4);
+        }
+        a:hover{
+            color: black;
+            text-decoration: underline;
+            font-size: 1.3em;
+        }
+        a:active{
+            color: yellow;
+        }
+        a::after{
+            content: 'link';
+        }
+        a::before{
+            content: 'link';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+<ul>
+<a href=""><li>Git hub</li></a>
+<a href=""><li>Canal do Youtube</li></a>
+<a href="https://www.cursoemvideo.com/curso/curso-html5-e-css3-modulo-2-de-5-40-horas/aulas/modulo-2-2/modulos/capitulo-15-aula-04-pseudo-elementos-em-css/" target="blank"><li>Site do Cursoemvideo</li></a>
+</ul>
+
+</body>
+</html>

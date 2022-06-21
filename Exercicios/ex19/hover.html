@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Hover</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        div:hover{
+            color: red;    font-family: Arial, Helvetica, sans-serif;
+            font-style: normal;
+            font-weight: bold;
+           
+            
+       
+        }
+        div>ol{
+            display: none;
+            
+        }
+      
+        div:hover>ol{
+            display: block;
+            background-color: rgba(110, 110, 110, 0.158);
+            border-radius: 10px;
+
+         
+            
+            width: 100px;
+            height: 220px;
+            padding-top: 15px;
+            padding-right: 1px;
+           
+        }
+        div>ol>a{
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: none;
+            font-weight: bold;
+            color: black;
+            text-align: left;    
+        }
+        div>ol>a:hover{
+        color: rgb(172, 16, 16);
+        font-size: 1.3em;
+       text-decoration: underline;
+       
+        }
+        
+
+        
+    </style>
+</head>
+<body>
+
+    <h1>Exemplo de Hover</h1>
+    <p>passe o mouse sobre o texto abaixo</p>
+    <div>
+       <p>
+        menu</p>
+        <ol>
+            <a href=""><li>Lazer</li></a>
+           <a href=""> <li>Esporte</li></a>
+            <a href=""><li>Educação</li></a>
+            <a href=""><li>Cultura</li></a>
+            <a href=""><li>literatura </li></a>
+            <a href=""><li>Lazer</li></a>
+            <a href=""> <li>Esporte</li></a>
+             <a href=""><li>Educação</li></a>
+             <a href=""><li>Cultura</li></a>
+             <a href=""><li>literatura </li></a>
+           
+        </ol>   
+       
+    </div>
+  
+</body>
+</html>
