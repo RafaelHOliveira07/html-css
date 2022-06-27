@@ -44,8 +44,7 @@ font-family: 'Android';src: url('../fontes/idroid.otf') format('opentype');font-
         background-image: linear-gradient(to bottom,   var(--cor3), var(--cor5));
         text-align: center;
         min-height: 150px;
-        padding-top:  40px; ;
-                               
+        padding-top:  40px;  
     }
     header>h1{
         color: white;
