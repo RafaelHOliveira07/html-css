@@ -19,6 +19,46 @@
         
         }
         
+
+        article>p{
+            font-family:Arial, Helvetica, sans-serif;
+            margin: 15px 0px;
+            text-align: justify;
+            text-indent: 30px;
+            line-height: 2em;
+            font-size: 1em;
+        }
+
+article>h2{
+    text-align: center;
+}
+        .titulo{
+            
+            
+            padding: 15px;
+           
+            
+           
+            width: max-content;
+            border-radius: 20px;
+            margin: auto;
+           
+           
+            
+
+        }
+        .titulo h1{
+            font-family: Arial, Helvetica, sans-serif;
+
+            font-weight: bolder;
+            font-style: normal;
+            color: rgb(255, 255, 255);
+            text-align: center;
+         
+            padding: 5px;
+            
+            
+        }
         img{
             width: 100%;
             margin: 20px 0px;

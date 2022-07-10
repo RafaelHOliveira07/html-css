@@ -94,22 +94,6 @@ header>p:hover{
     position: relative;
 }
 
-article>p{
-    font-family:Arial, Helvetica, sans-serif;
-    margin: 15px 0px;
-    text-align: justify;
-    text-indent: 30px;
-    line-height: 2em;
-    font-size: 1em;
-}
-article>h1{
-    font-family: var(--fonte-padrao);
-    font-weight: bolder;
-    font-style: normal;
-    color: var(--cor2);
-    text-decoration: underline;
-    margin-bottom: 10px;  
-}
   label span:nth-child(1){
     top: 0;
   }
