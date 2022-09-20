@@ -107,6 +107,7 @@ header>p{
 .menusite {
     margin:0px;
     padding: 0px;
+    
 }
 .menusite a{
     color: white;
@@ -117,6 +118,7 @@ header>p{
     font-weight: bolder;
     transition-duration: 0.4s;
     position: relative;
+    transition: 0.3s;
 
 }
 
@@ -126,12 +128,15 @@ header>p{
 
 .menusite a:hover{
 
-    background: rgb(19, 19, 19);
+    background: rgb(0, 0, 0);
     color: var(--cor3);
+    filter: drop-shadow( -1px 3px 4px rgba(255, 0, 0, 0.719));
+    border-radius: 6px;
    
 
     border-left:solid var(--cor3);
-    transition-delay: 0.1s;
+    border-bottom: solid var(--cor3);
+    transition-delay: 0.3s;
    
 }
 
