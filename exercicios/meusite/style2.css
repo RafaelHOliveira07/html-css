@@ -41,17 +41,18 @@ header{
 body{
     
     background-color: #000000;
-   background-image: linear-gradient( to bottom, rgb(36, 36, 36), rgb(12, 12, 12));
+    background-image: url(imagens/BLACK_II_desktop-1.jpg);
    background-position: center top;
    background-repeat: no-repeat;
-   background-size: cover;
+   
+   background-attachment: fixed;
    
 
 }
 
 nav{
  
-    background-color: #202020;
+    background-color: rgb(61, 1, 1);
     font-family: var(--fonte-padrao);
     padding: 20px;
    
@@ -133,9 +134,9 @@ header>p{
 
 .menusite a:hover{
 
-    background: rgb(0, 0, 0);
+    background: rgb(49, 49, 49);
     ;
-   
+   color: #d10501;
     border-radius: 6px;
    
 
@@ -256,10 +257,13 @@ footer{
     flex-direction: column;
     display: flex;
     justify-content: center;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(29, 29, 29, 0.205);
   
     align-items: center; 
    width: 100%;
-   background-image: url(imagens/BLACK_II_desktop-1.jpg);
+   
    
    
 }
