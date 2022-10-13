@@ -70,7 +70,7 @@ margin-top: 100px;
 
 #flor{
     background-image: url(imagens/background001.jpg);
-    background-size: cover 100% 100%;
+    background-size: cover;
     background-attachment: fixed;
     background-position: center;
     border-style:  inset;
