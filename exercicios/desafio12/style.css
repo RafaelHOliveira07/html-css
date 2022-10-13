@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+
+
+
+
+header{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+}
+
+header>h1{
+
+    color: white;
+    padding: 15px;
+    
+    
+
+}
+
+header>p{
+    color: white;
+    
+}
+header>p>a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    
+}
+header>p>a:hover{
+    text-decoration: underline ;
+    
+    
+}
+
+
+.texto{
+position: relative;
+display: flex;
+justify-content: left;
+align-items: center;
+height: 400px;
+padding: 50px;
+margin-top: 100px;
+
+
+}
+
+.estrofe{
+    width: 320px;
+    position: absolute;
+    font-family: 'Sriracha', cursive;
+    font-weight: bold;
+    padding: 40px;
+    left: -2%;
+    font-size: 1.8em;
+    text-align: left;
+  
+    
+}
+
+#flor{
+    background-image: url(imagens/background001.jpg);
+    background-size: cover 100% 100%;
+    background-attachment: fixed;
+    background-position: center;
+    border-style:  inset;
+    border: 1px solid black;
+
+    
+
+}
+
+#textoflor{
+    background-color: #2e2e2e8e;
+    color: white;
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.315);
+    
+}
