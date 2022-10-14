@@ -1,38 +1,57 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
+    
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
 
 
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+    }
 
-
+   
 header{
     background-color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 200px;
+    text-align: center;
+    color: white;
 }
+article > p {
+    padding-bottom: 2em;
+    }
 
+    article.imagem > p {
+        display: inline-block;
+        padding: 5px;
+        background-color: rgba(0, 0, 0, 0.514);
+        text-shadow: 1px 1px 0px black;
+        }
 header>h1{
-
-    color: white;
-    padding: 15px;
-    
-    
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: var(--fonte2);
+    font-size: 10vw;
 
 }
 
+
+h1{    
+    display: block;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
 header>p{
-    color: white;
+    padding-bottom: 50px;
     
 }
-header>p>a{
-    text-decoration: none;
+header a, footer a {
     color: white;
+    text-decoration: none;
     font-weight: bolder;
     
 }
@@ -42,49 +61,56 @@ header>p>a:hover{
     
 }
 
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
 
-.texto{
-position: relative;
-display: flex;
-justify-content: left;
-align-items: center;
-height: 400px;
-padding: 50px;
-margin-top: 100px;
+}
+
+
+article{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--fonte2);
+    font-size: 3.5vw;
 
 
 }
 
-.estrofe{
-    width: 320px;
-    position: absolute;
-    font-family: 'Sriracha', cursive;
-    font-weight: bold;
-    padding: 40px;
-    left: -2%;
-    font-size: 1.8em;
-    text-align: left;
-  
-    
+.imagem{
+    background-color: rgb(51, 51, 51);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgb(0 0 0 / 47%);
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 #flor{
     background-image: url(imagens/background001.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-    border-style:  inset;
-    border: 1px solid black;
-
+    background-position: right center;
     
+   
+  
 
 }
 
-#textoflor{
-    background-color: #2e2e2e8e;
+#flor2{
+    background-image: url(imagens/background002.jpg);
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
     color: white;
-    backdrop-filter: blur(2px);
-    -webkit-backdrop-filter: blur(2px);
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.315);
-    
+    padding: 10px;
+    font-size: large;
+}
+
+footer>p>a:hover{
+    text-decoration: underline;
 }
