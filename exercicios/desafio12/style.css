@@ -6,9 +6,9 @@
     
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
 
-
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 :root {
     --fonte1: Verdana, Geneva, Tahoma, sans-serif;
     --fonte2: 'Passion One', cursive;
@@ -17,6 +17,8 @@
 html ,body{
     min-height: 100vh;
     background-color: darkgray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+    ;
 
 }
    
