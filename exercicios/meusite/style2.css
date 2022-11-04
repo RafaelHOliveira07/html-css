@@ -140,21 +140,20 @@ nav h2{
     nav{
         display: flex;
         position: relative;
-        padding: 10px;
-        justify-content: space-between;
-        
-        
+        padding: 10px 0px;
+   
         
     }
 
     header>h1{
         margin-bottom: -40px ;
+        font-size: 3em;
     }
    .menucel{
        position: relative;
        display: inline-flex;
-       width: 25px;
-       padding: 5px;
+       width: 40px;
+       padding: 11px;
        justify-content: left;
        
    }

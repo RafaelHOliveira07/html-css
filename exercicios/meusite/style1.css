@@ -15,7 +15,7 @@
         max-width: 1000px;
         margin: auto;
         color: white;
-        box-shadow: 5px 6px 10px rgba(0, 0, 0, 0.226);
+        box-shadow: 6px 5px 8px rgba(0, 0, 0, 0.295);
         
         }
         
@@ -82,12 +82,8 @@ article>h2{
             padding: 5px;
             font-family: Arial, Helvetica, sans-serif;
             font-weight: bolder;
-            color:  #ffffff;
-          
-           
+            color:#ffffff;
             border-left: solid rgb(255, 0, 0);
-
-            
             width: 100%;
             padding: 0px -30px ;
          
